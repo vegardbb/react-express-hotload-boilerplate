@@ -12,7 +12,7 @@ tsconfig.json
 public/package-lock.json
 server/config
 server/logs
-*bundle.js*
 static/*.jpg
+static/js/*
 .psd
 stats.json
