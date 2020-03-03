@@ -1,17 +1,8 @@
 import "core-js/stable";
 import "regenerator-runtime/runtime";
-import HotApp from './HotApp';
+import { hot } from 'react-hot-loader';
+// import HotApp from './HotApp.jsx';
 import React from 'react';
 import { render } from 'react-dom';
 
-console.log("yay");
-
-// ReactDOM.render(, document.getElementById('app-container'));
-
-const root = document.createElement('div');
-document.body.appendChild(root);
-
-render(
-    <HotApp />,
-    root
-)
+render(<>INDØK ER HOMO</>, document.getElementById('app-container'));

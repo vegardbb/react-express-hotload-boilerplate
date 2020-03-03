@@ -1,11 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import GlobalStyles from './GlobalStyles';
-
-
-export default function App() {
-  return (<AppWrapper><GlobalStyles/>hello masadadsgagagagagagnsasadd sad sad</AppWrapper>);
-};
+// import GlobalStyles from './GlobalStyles.jsx';
 
 const AppWrapper = styled.div`
   position: relative;
@@ -14,3 +9,7 @@ const AppWrapper = styled.div`
   border: 10px solid red;
 `;
 
+export default function App() {
+  console.log('hotapp')
+  return <AppWrapper/>;
+};
