@@ -46,10 +46,11 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "scripts": {
-    "devserver": "cross-env NODE_ENV=development node ./server/bin/lo.js",
-    "start": "cross-env NODE_ENV=production node ./server/bin/www",
-    "build:dev": "cross-env webpack --config ./webpack.config.dev.js --progress",
-    "build:prod": "cross-env webpack --config ./webpack.config.prod.js --progress"
+    "devserver": "./node_modules/.bin/cross-env NODE_ENV=development node ./server/bin/lo.js",
+    "start": "./node_modules/.bin/cross-env NODE_ENV=production node ./server/bin/www",
+    "lint": "./node_modules/.bin/eslint .",
+    "build:dev": "./node_modules/.bin/cross-env webpack --config ./webpack.config.dev.js --progress",
+    "build:prod": "./node_modules/.bin/cross-env webpack --config ./webpack.config.prod.js --progress"
   },
   "author": "Robin Koien",
   "license": "ISC"
