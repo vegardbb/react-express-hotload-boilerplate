@@ -3,7 +3,7 @@
 // const secureHyperTextTransferProtocol = require('https');
 const http = require('http');
 const appLogger = require('../logging/app-logger'); // Get application logger
-const app = require('../prodApp');
+const app = require('../app');
 
 const normalizePort = function parsePortConfig(val) {
     const port = parseInt(val, 10);
